@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="question1">book or electronics</string>
+    <string name="books1">books</string>
+    <string name="electronics1">electronics</string>
+    <string name="dashboard1">Seller</string>
 </resources>

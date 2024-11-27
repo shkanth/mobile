@@ -7,8 +7,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 <TextView
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Seller Dashboard"/>
+    android:text="@string/dashboard1"
+    android:id="@+id/lbl"
+    />
+    <Button
+        android:text="@string/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_below="@id/lbl"
+
+        />
+    <Button
+        android:text="@string/books1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl"
+android:id="@+id/books"
+
+        />
+    <Button
+        android:text="@string/electronics1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/books"
+        />
 
 </RelativeLayout>
